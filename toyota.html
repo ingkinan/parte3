@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mercado Privado</title>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/x-icon" href="img/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+</head>
+<body>
+
+<!--Menú-->
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: orangered;">
+  
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!--Marca/logo-->
+  <a class="navbar-brand" href="index.html">
+    <img src="img/home.png" alt="Automoviles" alt="Automoviles" style="width:40px;">
+  </a>
+ 
+  <!--Links-->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="navegaco" href="chevrolet.html">Chevrolet</a>
+    </li>
+    <li class="nav-item">
+      <a class="navegaco" href="ford.html">Ford</a>
+    </li>
+    <li class="nav-item">
+      <a class="navegaco" href="kia.html">Kia</a>
+    </li>
+    <li class="nav-item">
+      <a class="navegaco" href="#">Hyundai</a>
+    </li>
+    <li class="nav-item">
+      <a class="navegaco" href="#">Mitsubishi</a>
+    </li>
+    <li class="nav-item">
+      <a class="navegaco" href="#">Toyota</a>
+    </li>
+  </ul>
+
+  <!-- &nbsp;&nbsp; -->
+  <!-- <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Buscar">
+    <button class="btn btn-primary" type="submit">Buscar</button>
+  </form> -->
+  </div>
+</nav>
+
+<br><br>
+<!--Cabecera-->
+<header class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Celulares y Teléfonos</h1>
+  <p>Aquí vas a encontrar los mejores Celulares y Teléfonos disponibles en mercado privado</p>
+</header>
+
+<!--Ventas-->
+
+<div class="container">
+  <h3>Productos:</h3>
+  <br>
+<div id="accordion">
+
+  <div class="card">
+    <div class="card-header">
+      <a class="card-link" data-toggle="collapse" href="#collapseOne">
+        <img src="img/iphone.jpg" width="50px"> iphone X <p style="float: right;">1000$</p>
+      </a>
+    </div>
+    <div id="collapseOne" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        <img src="img/iphone.jpg" width="200px" height="200px" class="foto">
+        <p>Descripcion: El iphone X, el celular de Apple mas bonito y ridículamente caro.</p>
+        <p>Precio: 1000$</p>
+        <p><u>No existen ofertas para este artículo.</u></p>
+        <button type="button" class="btn btn-success">Carrito</button>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+        <img src="img/pixel google.jpg" width="50px"> Google Pixel <p style="float: right;">900$</p>
+      </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        <img src="img/pixel google.jpg" width="200px" height="200px" class="foto">
+        <p>Descripcion: El Google Pixel, el primer smartphone que saca Google al mercado y gran competencia al iphone de Apple.</p>
+        <p>Precio: 900$</p>
+        <p><u>No existen ofertas para este artículo.</u></p>
+        <button type="button" class="btn btn-success">Carrito</button>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+        <img src="img/htc.png" width="50px"> HTC U11 <p style="float: right;">500$</p>
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        <img src="img/htc.png" width="230px" height="200px" class="foto">
+        <p>Descripcion: HTC U11, un smartphone de gama media-alta con muchos trucos bajo la manga y de gran potencia.</p>
+        <p>Precio: 500$ (con oferta: 450$) disponible solo por hoy.</p>
+        <p><u>Este artículo tiene un 10% de descuento !Aproveche¡</u></p>
+        <button type="button" class="btn btn-success">Carrito</button>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+        <img src="img/lg.jpg" width="50px"> LG G5 <p style="float: right;">500$</p>
+      </a>
+    </div>
+    <div id="collapseFour" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        <img src="img/lg.jpg" width="200px" height="200px" class="foto">
+        <p>Descripcion: El LG G5, es el smarthphone mas potente que LG ha sacado al mercado, incluyendo un lapíz tactil para tener un mejor manejo sobre el..</p>
+        <p>Precio: 500$</p>
+        <p><u>No existen ofertas para este artículo.</u></p>
+        <button type="button" class="btn btn-success">Carrito</button>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+<br><br>
+<!--Pie-->
+<footer class="jumbotron text-center" style="margin-bottom:0">
+  <p>Mercado Privado - Todos los Derechos Reservados &copy; 2018 <br> Kinan El Dihbal Ing. Informática</p>
+</footer>
+
+<div class="social">
+    <ul>
+      <li><a href="https://www.facebook.com/" target="_blank" class="icon-facebook"></a></li>
+      <li><a href="https://twitter.com/" target="_blank" class="icon-twitter"></a></li>
+      <li><a href="https://www.instagram.com" target="_blank" class="icon-instagram"></a></li>
+      <li><a href="https://www.youtube.com/channel" target="_blank" class="icon-youtube"></a></li>
+    </ul>
+  </div>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mercado Privado</title>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/x-icon" href="img/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+</head>
+<body>
+
+<!--Menú-->
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: orangered;">
+  
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!--Marca/logo-->
+  <a class="navbar-brand" href="index.html">
+    <img src="img/home.png" alt="Automoviles" alt="Automoviles" style="width:40px;">
+  </a>
+ 
+  <!--Links-->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="navegaco" href="chevrolet.html">Chevrolet</a>
+    </li>
+    <li class="nav-item">
+      <a class="navegaco" href="ford.html">Ford</a>
+    </li>
+    <li class="nav-item">
+      <a class="navegaco" href="kia.html">Kia</a>
+    </li>
+    <li class="nav-item">
+      <a class="navegaco" href="#">Hyundai</a>
+    </li>
+    <li class="nav-item">
+      <a class="navegaco" href="#">Mitsubishi</a>
+    </li>
+    <li class="nav-item">
+      <a class="navegaco" href="#">Toyota</a>
+    </li>
+  </ul>
+
+  <!-- &nbsp;&nbsp; -->
+  <!-- <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Buscar">
+    <button class="btn btn-primary" type="submit">Buscar</button>
+  </form> -->
+  </div>
+</nav>
+
+<br><br>
+<!--Cabecera-->
+<header class="jumbotron text-center black-background" style="margin-bottom:0">
+  <h1>Chevrolet</h1>
+  <img src='img/logoc.jpg' />
+</header>
+
+<!--Ventas-->
+
+<div class="container">
+  <h3>Modelos:</h3>
+  <br>
+<div id="accordion">
+
+  <div class="card">
+    <div class="card-header">
+      <a class="card-link" data-toggle="collapse" href="#collapseOne">
+        <img src="img/ChevroletImpala.jpg" width="50px"> Chevrolet Impala <p style="float: right;">5000$</p>
+      </a>
+    </div>
+    <div id="collapseOne" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        <img src="img/ChevroletImpala.jpg" width="200px" height="200px" class="foto">
+        <p>Descripcion: Chevrolet Impala Un buen carro para la familia.</p>
+        <p>Precio: 5000$</p>
+        <p><u>No existen ofertas para este artículo.</u></p>
+        <button type="button" class="btn btn-success">Carrito</button>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+        <img src="img/ChevroletLeasing.jpg" width="50px"> Chevrolet Leasing <p style="float: right;">8500$</p>
+      </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        <img src="img/ChevroletLeasing.jpg" width="250px" height="200px" class="foto">
+        <p>Descripcion: Chevrolet Leasing. Uno de los autos mas comodos y conducibles</p>
+        <p>Precio: 8500$</p>
+        <p><u>No existen ofertas para este artículo.</u></p>
+        <button type="button" class="btn btn-success">Carrito</button>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+        <img src="img/ChevroletTahoe.jpg" width="50px"> Chevrolet Tahoe <p style="float: right;">10000$</p>
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        <img src="img/ChevroletTahoe.jpg" width="200px" height="200px" class="foto">
+        <p>Descripcion: Chevrolet Tahoe para viajes comodos.</p>
+        <p>Precio: 10000$</p>
+        <p><u>Este artículo tiene un 20% de descuento !Aproveche¡ </u></p>
+        <button type="button" class="btn btn-success">Carrito</button>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+        <img src="img/ChevroletMalibuLimited.jpg" width="50px"> Chevrolet Malibu Limited <p style="float: right;">6000$</p>
+      </a>
+    </div>
+    <div id="collapseFour" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        <img src="img/ChevroletMalibuLimited.jpg" width="200px" height="200px" class="foto">
+        <p>Descripcion: Chevrolet Malibu Limited El mejor carro deportivo</p>
+        <p>Precio: 6000$</p>
+        <p><u>No existen ofertas para este artículo.</u></p>
+        <button type="button" class="btn btn-success">Carrito</button>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+<br><br>
+<!--Pie-->
+<footer class="jumbotron text-center" style="margin-bottom:0">
+  <p>Automoviles - Todos los Derechos Reservados &copy; 2018 <br> Kinan El Dihbal Ing. Informática</p>
+</footer>
+
+<div class="social">
+    <ul>
+      <li><a href="https://www.facebook.com/" target="_blank" class="icon-facebook"></a></li>
+      <li><a href="https://twitter.com" target="_blank" class="icon-twitter"></a></li>
+      <li><a href="https://www.instagram.com" target="_blank" class="icon-instagram"></a></li>
+      <li><a href="https://www.youtube.com/" target="_blank" class="icon-youtube"></a></li>
+    </ul>
+  </div>

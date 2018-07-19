@@ -1,0 +1,80 @@
+header {
+
+	background-image: url("../img/fondo.png");
+	color: white;
+	justify-content: center;
+}
+
+.foto {
+
+	float: left;
+}
+.imageWidth img{
+	height: 600px !important;
+
+}
+footer {
+    
+    background-image: url("../img/fondo1.png");
+	color: white;
+}
+
+.social {
+
+    /*Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	position: fixed;
+	/*Establecemos la barra en la izquierda*/
+	right: 0;
+	/*Bajamos la barra 200px de arriba a abajo*/
+	top: 400px;
+	 /*Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc*/
+	z-index: 2000;
+}
+
+.social ul {
+
+	list-style: none;
+}
+
+.social ul li a {
+
+	display: inline-block;
+	color:#fff;
+	background: #000;
+	/*Tamaño*/
+	padding: 10px 15px;
+	text-decoration: none;
+
+    /*Establecemos una transición a todas las propiedades*/
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+/*Establecemos los colores de cada red social, aprovechando su class*/
+.social ul li .icon-facebook {background:#3b5998;} 
+.social ul li .icon-twitter {background: #00abf0;}
+.social ul li .icon-instagram {background: #011169;}
+.social ul li .icon-youtube {background: #cc181e}
+
+.social ul li a:hover {
+
+    /*Cambiamos el fondo cuando el usuario pase el mouse*/
+	background: orangered;
+}
+.navegaco{
+	color: #000;
+	display: block;
+	padding: 0.5rem 1rem;
+	border: 1px solid transparent;
+	border-top-left-radius: 0.25rem;
+	border-top-right-radius: 0.25rem;
+}
+.navegaco:hover, .navegaco:focus {
+	text-decoration: none;
+	color:gray;
+}
+
+.black-background {
+	background-color: black;
+}
